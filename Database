@@ -1,1 +1,47 @@
+fetch('https://api.remedi.com/v1/patient', {
+  method: 'PUT',
+  headers: {
+    Authorization: 'ApiKey [YOUR API KEY]',
+    'Content-Type': 'application/json'
+  },
+  body: JSON.stringify(body)
+}
 
+
+{
+  "statusCode": 401,
+  "error": "Unauthorized",
+  "message": "Please Send a Valid Api-Key"
+}
+
+
+{
+  "statusCode": 400,
+  "error": "Bad Request",
+  "validation_errors": [
+    {
+      "key": "street1",
+      "message": "is not allowed to be empty"
+    }
+  ]
+}
+
+
+{
+  "statusCode": 400,
+  "error": "Bad Request",
+  "validation_errors": [
+    {
+      "key": "last_name",
+      "message": "is required"
+    }
+  ]
+}
+
+
+
+{
+  "statusCode": 404,
+  "error": "Not Found",
+  "message": "Resource Not Found."
+}
