@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang = "en">
+  <head>
+    <title> Remedi </title>
+   
+    <meta name = "viewport" content = "with=device-width, initial-scale= 1.0">
+    <link rel = "stylesheet" href= "remedihpstyles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+
+  </head>
+
+<body>
+  <section class = "header">
+    <nav>
+      <a href="index.html"><img src="images/remedilogo.png"></a>
+      <div class="nav-links">
+        <ul>
+          <li><a href="">HOME</a></li>
+          <li><a href="">ABOUT</a></li>
+          <li><a href="">LOGIN</a></li>
+          <li><a href="">MY  PROFILE</a></li>
+          <li><a href="">LOCATIONS NEAR ME</a></li>
+        </ul>
+
+      </div>
+    </nav>
+  <div class="text-box">
+
+    <h1>Your Medication Reminder Service</h1>
+    <p> Never forget to take your meds again</p>
+    <a href="" class="signup-btn">Sign Up Now</a>
+  </div>
+
+  </secion>
+
+</body>
+</html>
